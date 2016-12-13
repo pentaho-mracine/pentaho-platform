@@ -2233,6 +2233,7 @@
 			<groupId>com.dumbster</groupId>
 			<artifactId>dumbster</artifactId>
 			<version>${dumbster.version}</version>
+			<scope>test</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.jmockit</groupId>
@@ -2313,6 +2314,7 @@
 			<groupId>pentaho</groupId>
 			<artifactId>simple-jndi</artifactId>
 			<version>${simple-jndi.version}</version>
+			<scope>test</scope>
 		</dependency>
 		<dependency>
 			<groupId>commons-beanutils</groupId>
@@ -2364,6 +2366,7 @@
 			<groupId>org.tuckey</groupId>
 			<artifactId>urlrewrite</artifactId>
 			<version>${urlrewrite.version}</version>
+			<scope>test</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.security</groupId>
@@ -2392,6 +2395,7 @@
 			<groupId>org.apache.mina</groupId>
 			<artifactId>mina-core</artifactId>
 			<version>${mina-core.version}</version>
+			<scope>test</scope>
 			<exclusions>
 				<exclusion>
 					<groupId>*</groupId>
@@ -2403,6 +2407,7 @@
 			<groupId>org.apache.directory.server</groupId>
 			<artifactId>apacheds-core</artifactId>
 			<version>${apacheds.version}</version>
+			<scope>test</scope>
 			<exclusions>
 				<exclusion>
 					<groupId>*</groupId>
@@ -2414,6 +2419,7 @@
 			<groupId>org.apache.directory.server</groupId>
 			<artifactId>apacheds-core-avl</artifactId>
 			<version>${apacheds.version}</version>
+			<scope>test</scope>
 			<exclusions>
 				<exclusion>
 					<groupId>*</groupId>
@@ -2425,6 +2431,7 @@
 			<groupId>org.apache.directory.server</groupId>
 			<artifactId>apacheds-bootstrap-extract</artifactId>
 			<version>${apacheds.version}</version>
+			<scope>test</scope>
 			<exclusions>
 				<exclusion>
 					<groupId>*</groupId>
@@ -2436,6 +2443,7 @@
 			<groupId>org.apache.directory.server</groupId>
 			<artifactId>apacheds-bootstrap-partition</artifactId>
 			<version>${apacheds.version}</version>
+			<scope>test</scope>
 			<exclusions>
 				<exclusion>
 					<groupId>*</groupId>
@@ -2447,6 +2455,7 @@
 			<groupId>org.apache.directory.server</groupId>
 			<artifactId>apacheds-xdbm-search</artifactId>
 			<version>${apacheds.version}</version>
+			<scope>test</scope>
 			<exclusions>
 				<exclusion>
 					<groupId>*</groupId>
@@ -2458,6 +2467,7 @@
 			<groupId>org.apache.directory.server</groupId>
 			<artifactId>apacheds-core-entry</artifactId>
 			<version>${apacheds.version}</version>
+			<scope>test</scope>
 			<exclusions>
 				<exclusion>
 					<groupId>*</groupId>
@@ -2469,6 +2479,7 @@
 			<groupId>org.apache.directory.server</groupId>
 			<artifactId>apacheds-core-shared</artifactId>
 			<version>${apacheds.version}</version>
+			<scope>test</scope>
 			<exclusions>
 				<exclusion>
 					<groupId>*</groupId>
@@ -2480,6 +2491,7 @@
 			<groupId>org.apache.directory.server</groupId>
 			<artifactId>apacheds-schema-registries</artifactId>
 			<version>${apacheds.version}</version>
+			<scope>test</scope>
 			<exclusions>
 				<exclusion>
 					<groupId>*</groupId>
@@ -2491,6 +2503,7 @@
 			<groupId>org.apache.directory.server</groupId>
 			<artifactId>apacheds-schema-bootstrap</artifactId>
 			<version>${apacheds.version}</version>
+			<scope>test</scope>
 			<exclusions>
 				<exclusion>
 					<groupId>*</groupId>
@@ -2502,6 +2515,7 @@
 			<groupId>org.apache.directory.server</groupId>
 			<artifactId>apacheds-jdbm-store</artifactId>
 			<version>${apacheds.version}</version>
+			<scope>test</scope>
 			<exclusions>
 				<exclusion>
 					<groupId>*</groupId>
@@ -2513,6 +2527,7 @@
 			<groupId>org.apache.directory.server</groupId>
 			<artifactId>apacheds-jdbm</artifactId>
 			<version>${apacheds.version}</version>
+			<scope>test</scope>
 			<exclusions>
 				<exclusion>
 					<groupId>*</groupId>
@@ -2524,6 +2539,7 @@
 			<groupId>org.apache.directory.server</groupId>
 			<artifactId>apacheds-xdbm-base</artifactId>
 			<version>${apacheds.version}</version>
+			<scope>test</scope>
 			<exclusions>
 				<exclusion>
 					<groupId>*</groupId>
@@ -2535,6 +2551,7 @@
 			<groupId>org.apache.directory.server</groupId>
 			<artifactId>apacheds-protocol-ldap</artifactId>
 			<version>${apacheds.version}</version>
+			<scope>test</scope>
 			<exclusions>
 				<exclusion>
 					<groupId>*</groupId>
@@ -2546,6 +2563,7 @@
 			<groupId>org.apache.directory.server</groupId>
 			<artifactId>apacheds-protocol-shared</artifactId>
 			<version>${apacheds.version}</version>
+			<scope>test</scope>
 			<exclusions>
 				<exclusion>
 					<groupId>*</groupId>
@@ -2557,6 +2575,7 @@
 			<groupId>org.apache.directory.server</groupId>
 			<artifactId>apacheds-utils</artifactId>
 			<version>${apacheds.version}</version>
+			<scope>test</scope>
 			<exclusions>
 				<exclusion>
 					<groupId>*</groupId>
@@ -2568,6 +2587,7 @@
 			<groupId>org.apache.directory.shared</groupId>
 			<artifactId>shared-ldap</artifactId>
 			<version>${shared.version}</version>
+			<scope>test</scope>
 			<exclusions>
 				<exclusion>
 					<groupId>*</groupId>
@@ -2579,6 +2599,7 @@
 			<groupId>org.apache.directory.shared</groupId>
 			<artifactId>shared-ldap-constants</artifactId>
 			<version>${shared.version}</version>
+			<scope>test</scope>
 			<exclusions>
 				<exclusion>
 					<groupId>*</groupId>
@@ -2590,6 +2611,7 @@
 			<groupId>org.apache.directory.shared</groupId>
 			<artifactId>shared-cursor</artifactId>
 			<version>${shared.version}</version>
+			<scope>test</scope>
 			<exclusions>
 				<exclusion>
 					<groupId>*</groupId>
@@ -2601,6 +2623,7 @@
 			<groupId>org.apache.directory.shared</groupId>
 			<artifactId>shared-asn1</artifactId>
 			<version>${shared.version}</version>
+			<scope>test</scope>
 			<exclusions>
 				<exclusion>
 					<groupId>*</groupId>
@@ -2612,6 +2635,7 @@
 			<groupId>org.apache.directory.shared</groupId>
 			<artifactId>shared-asn1-codec</artifactId>
 			<version>${shared.version}</version>
+			<scope>test</scope>
 			<exclusions>
 				<exclusion>
 					<groupId>*</groupId>
@@ -2623,6 +2647,7 @@
 			<groupId>org.apache.directory.server</groupId>
 			<artifactId>apacheds-server-jndi</artifactId>
 			<version>${apacheds.version}</version>
+			<scope>test</scope>
 			<exclusions>
 				<exclusion>
 					<groupId>*</groupId>
@@ -2634,6 +2659,7 @@
 			<groupId>com.sun.jersey.jersey-test-framework</groupId>
 			<artifactId>jersey-test-framework-core</artifactId>
 			<version>${jersey.version}</version>
+			<scope>test</scope>
 			<exclusions>
 				<exclusion>
 					<groupId>*</groupId>
@@ -2645,6 +2671,7 @@
 			<groupId>com.sun.jersey.jersey-test-framework</groupId>
 			<artifactId>jersey-test-framework-grizzly</artifactId>
 			<version>${jersey.version}</version>
+			<scope>test</scope>
 			<exclusions>
 				<exclusion>
 					<groupId>*</groupId>
@@ -2656,6 +2683,7 @@
 			<groupId>com.sun.grizzly</groupId>
 			<artifactId>grizzly-framework</artifactId>
 			<version>${grizzly.version}</version>
+			<scope>test</scope>
 			<exclusions>
 				<exclusion>
 					<groupId>*</groupId>
@@ -2667,6 +2695,7 @@
 			<groupId>com.sun.grizzly</groupId>
 			<artifactId>grizzly-lzma</artifactId>
 			<version>${grizzly.version}</version>
+			<scope>test</scope>
 			<exclusions>
 				<exclusion>
 					<groupId>*</groupId>
@@ -2678,6 +2707,7 @@
 			<groupId>com.sun.grizzly</groupId>
 			<artifactId>grizzly-portunif</artifactId>
 			<version>${grizzly.version}</version>
+			<scope>test</scope>
 			<exclusions>
 				<exclusion>
 					<groupId>*</groupId>
@@ -2689,6 +2719,7 @@
 			<groupId>com.sun.grizzly</groupId>
 			<artifactId>grizzly-rcm</artifactId>
 			<version>${grizzly.version}</version>
+			<scope>test</scope>
 			<exclusions>
 				<exclusion>
 					<groupId>*</groupId>
@@ -2700,6 +2731,7 @@
 			<groupId>com.sun.grizzly</groupId>
 			<artifactId>grizzly-servlet-webserver</artifactId>
 			<version>${grizzly.version}</version>
+			<scope>test</scope>
 			<exclusions>
 				<exclusion>
 					<groupId>*</groupId>
@@ -2711,6 +2743,7 @@
 			<groupId>com.sun.grizzly</groupId>
 			<artifactId>grizzly-utils</artifactId>
 			<version>${grizzly.version}</version>
+			<scope>test</scope>
 			<exclusions>
 				<exclusion>
 					<groupId>*</groupId>
@@ -2722,6 +2755,7 @@
 			<groupId>com.sun.grizzly</groupId>
 			<artifactId>grizzly-http</artifactId>
 			<version>${grizzly.version}</version>
+			<scope>test</scope>
 			<exclusions>
 				<exclusion>
 					<groupId>*</groupId>
@@ -2733,6 +2767,7 @@
 			<groupId>com.sun.grizzly</groupId>
 			<artifactId>grizzly-http-servlet</artifactId>
 			<version>${grizzly.version}</version>
+			<scope>test</scope>
 			<exclusions>
 				<exclusion>
 					<groupId>*</groupId>
@@ -2755,6 +2790,7 @@
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-test</artifactId>
 			<version>${spring.framework.version}</version>
+			<scope>test</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework</groupId>
