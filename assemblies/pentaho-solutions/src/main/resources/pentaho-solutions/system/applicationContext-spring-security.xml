@@ -245,6 +245,7 @@
         <sec:intercept-url pattern="\A/scheduleradmin.*\Z" access="Admin" />
         <sec:intercept-url pattern="\A/publish.*\Z" access="Admin" />
         <sec:intercept-url pattern="\A/logout.*\Z" access="Anonymous" />
+	<sec:intercept-url pattern="\A/kettle/status.*\z" access="Authenticated" />
         <sec:intercept-url pattern="\A/solutionrepositoryservice.*component=delete.*solution=system.*\Z" access="Nobody" />
         <sec:intercept-url pattern="\A/solutionrepositoryservice.*solution=system.*component=delete.*\Z" access="Nobody" />
         <sec:intercept-url pattern=".*system.*pentaho.xml.*" access="Nobody" />
